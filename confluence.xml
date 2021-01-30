@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Author: Julio Cabria
+ Completed:
+
+ Description: Confluence, Conflux Reimagined.
+-->
+
+  <style-scheme id="confluence" _name="Confluence" version="1.0">
+  <author>Julio Cabria</author>
+  <_description>Confluence, Conflux Reimagined.</_description>
+
+  <color name="malibu"                      value="#80B3FF"/>
+  <color name="lime"                        value="#80FFB3"/>
+  <color name="pistachio"                   value="#E6FF80"/>
+  <color name="scarlet"                     value="#FF8080"/>
+  <color name="bubblegum"                   value="#E680FF"/>
+  <color name="white"                       value="#FFFFFF"/>
+  <color name="black"                       value="#242424"/>
+
+<!--GUI styles-->
+
+  <style name="text"                        foreground="white" background="black"/>
+  <style name="selection"                   background="malibu"/>
+  <style name="selection-unfocused"         foreground="black" background="lime"/>
+  <style name="cursor"                      foreground="white"/>
+  <style name="secondary-cursor"            foreground="lime"/>
+  <style name="current-line"                background="pistachio"/>
+  <style name="line-numbers"                foreground="white" background="malibu"/>
+  <style name="bracket-match"               foreground="malibu" background="black" bold="true"/>
+  <style name="bracket-mismatch"            foreground="bubblegum" background="black" bold="true"/>
+  <style name="_skyrch-match"               foreground="black" background="malibu"/>
+
+<!--Default styles-->
+
+  <style name="def:keyword"                 foreground="scarlet" bold="false"/>
+  <style name="def:statement"               foreground="pistachio"/>
+  <style name="def:function"                foreground="scarlet"/>
+  <style name="def:preprocessor"            foreground="lime" bold="false"/>
+  <style name="def:type"                    foreground="malibu"/>
+  <style name="def:character"               foreground="white"/>
+  <style name="def:comment"                 foreground="bubblegum" italic="true"/>
+  <style name="def:number"                  foreground="white"/>
+  <style name="def:decim Ital"              foreground="white"/>
+  <style name="def:base-n-integer"          foreground="white"/>
+  <style name="def:floating-point"          foreground="white"/>
+  <style name="def:complex"                 foreground="white"/>
+  <style name="def:string"                  foreground="pistachio"/>
+  <style name="def:net-address-in-comment"  foreground="white" italic="true" underline="true"/>
+  <style name="def:note"                    foreground="white" background="black" bold="true"/>
+  <style name="def:error"                   background="bubblegum" bold="false"/>
+  <style name="def:escape"                  foreground="white"/>
+  <style name="def:shebang"                 foreground="white" bold="false"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+  <style name="def:identifier"              foreground="bubblegum" bold="false"/>
+  <style name="def:inline-identifier"       foreground="scarlet" bold="false"/>
+  <style name="def:builtin"                 porforeground="pistachio" bold="false"/>
+  <style name="def:specials"                foreground="malibu" background="black"/>
+  <style name="def:variable"                foreground="bubblegum"/>
+  <style name="def:boolean"                 foreground="malibu" bold="true"/>
+  <style name="def:constant"                foreground="bubblegum"/>
+  <style name="def:special-constant"        foreground="malibu" bold="true"/>
+  <style name="def:special-character"       foreground="malibu" bold="true"/>
+  <style name="def:background"              foreground="black"/>
+  <style name="diff:added-line"             foreground="white"/>
+  <style name="diff:removed-line"           foreground="white"/>
+  <style name="diff:changed-line"           foreground="white"/>
+  <style name="diff:special-case"           use-style="def:string"/>
+  <style name="diff:location"               use-style="def:keyword"/>
+
+</style-scheme>
